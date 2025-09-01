@@ -6,8 +6,7 @@
     "image": "",
     "email": "egor.lyfar@gmail.com",
     "phone": "+852 5726 0632",
-    "url": "https://lyfar.com",
-    "summary": "Technical Product Manager with AI expertise. I design, build, and ship end-to-end products across web/mobile (Next.js, SwiftUI, Flutter Web) and integrate LLM capabilities (OpenAI, Claude) to drive measurable business impact. 15+ years in IT with 5-6 years in product leadership across FinTech trading platforms, CRM/automation, and data-driven growth. Multilingual (EN/RU/FR).",
+    "summary": "Technical Product Manager (AI & FinTech). I ship production apps using AI-assisted development (Cursor, Copilot, Claude Code) across TypeScript/Next.js, SwiftUI, Flutter Web, and Python. Strong at rapid prototyping, integrations, and taking features to production with engineers for deeper systems. 15+ years in IT with 5-6 years in product leadership; multilingual (EN/RU/FR).",
     "location": {
       "address": "",
       "postalCode": "",
@@ -20,11 +19,6 @@
         "network": "LinkedIn",
         "username": "egorlyfar",
         "url": "https://linkedin.com/in/egorlyfar"
-      },
-      {
-        "network": "Website",
-        "username": "lyfar",
-        "url": "https://lyfar.com"
       }
     ]
   },
@@ -33,19 +27,14 @@
       "name": "ZFX",
       "location": "Hong Kong",
       "description": "FinTech, Forex Broker, CFD Trading",
-      "position": "Business Analyst / Product Managerr",
+      "position": "Business Analyst / Product Manager",
       "startDate": "2020-01-01",
       "summary": "Led product development for trading applications in a fast-paced FinTech environment; shipped user-centric features and platform improvements across web and mobile.",
       "highlights": [
-        "Crafted and executed a modular product roadmap for a PWA trading platform (onboarding, KYC, deposits, trading core, news/localization).",
-        "Drove growth for the Trading App with a 30% increase in downloads and 25% increase in active users.",
-        "Directed cross-functional delivery of new trading features, contributing to a 10% uplift in trading volume.",
-        "Used data-led iteration to refine features and pricing, supporting a 15% revenue increase.",
-        "Identified and validated new revenue opportunities via competitive and market research (+15% YoY revenue).",
-        "Designed a streamlined onboarding flow that reduced support inquiries by ~20%.",
-        "Overhauled KYC process, recovering ~US$200k and reducing CS workload by ~30%.",
-        "Managed a website relaunch, resulting in +25% traffic and +20% engagement.",
-        "Shipped rewards/bonus UX (e.g., claim flows, expiries) and integrated CMS-driven content for news, insights, and localization."
+        "Shipped a modular PWA roadmap (onboarding, KYC, deposits, trading core, news/localization).",
+        "Grew app usage: +30% downloads, +25% active users; features lifted trading volume ~10%.",
+        "Overhauled KYC, recovering ~US$200k and cutting customer support workload ~30%.",
+        "Relaunched website: +25% traffic, +20% engagement; onboarding revamp reduced tickets ~20%."
       ],
       "endDate": "2025-09-15",
       "startDateDisplay": "01/01/2020",
@@ -61,10 +50,9 @@
       "endDate": "2023-09-01",
       "summary": "Part-time consulting on product strategy and roadmap for a leading blockchain media platform.",
       "highlights": [
-        "Partnered with CTO and business owner on a forward-looking product roadmap.",
-        "Analyzed competitors and trends to shape differentiation and sequencing.",
-        "Orchestrated a product audit using user and stakeholder feedback to refine direction.",
-        "Bridged business/engineering to align milestones and KPIs."
+        "Co-created forward product roadmap with CTO and owner.",
+        "Led competitor/trend analysis to shape differentiation and sequencing.",
+        "Ran product audit using user/stakeholder input to realign KPIs and direction."
       ],
       "startDateDisplay": "01/01/2023",
       "endDateDisplay": "01/09/2023"
@@ -78,13 +66,10 @@
       "endDate": "2020-01-01",
       "summary": "Led IT, web, and product initiatives while driving eCommerce growth and business development.",
       "highlights": [
-        "Developed and executed an eCommerce strategy producing +165% revenue.",
-        "Improved conversion rate (+1.5pp) and increased AOV (+17%).",
-        "Achieved ~HK$2,000,000 in savings via in-house tech and process optimization.",
-        "Rolled out new tooling for smoother retail operations and UX.",
-        "Managed a 600+ SKU multi-channel product portfolio.",
-        "Launched a PR campaign that attracted HK$1,000,000 investment.",
-        "Improved retail UX through physical space design and digital content."
+        "eCommerce strategy drove +165% revenue growth.",
+        "Improved conversion (+1.5pp) and AOV (+17%).",
+        "Saved ~HK$2,000,000 via in-house tech and process optimization.",
+        "Managed 600+ SKUs; rolled out tooling that improved retail operations and UX."
       ],
       "startDateDisplay": "01/12/2017",
       "endDateDisplay": "01/01/2020"
@@ -98,11 +83,10 @@
       "endDate": "2021-12-01",
       "summary": "Owned digital strategy and business development; created revenue-driving web properties and marketing programs.",
       "highlights": [
-        "Built a new corporate website with UX/SEO improvements, generating >EUR 5,000,000 in additional revenue.",
+        "New UX/SEO site generated >EUR 5,000,000 in additional revenue.",
         "Prototyped a yacht exchange model and supporting web flows.",
-        "Optimized VAT flows, adding ~EUR 40,000 in revenue.",
-        "Led omni-channel marketing (social, email, Google Ads).",
-        "Leveraged CRM to close ~50 yacht charter contracts (>EUR 2,000,000 total value)."
+        "Optimized VAT processes, adding ~EUR 40,000 in revenue.",
+        "CRM-driven pipeline closed ~50 charters (>EUR 2,000,000)."
       ],
       "startDateDisplay": "01/09/2011",
       "endDateDisplay": "01/12/2021"
@@ -116,10 +100,9 @@
       "endDate": "2017-01-01",
       "summary": "Founded and led a boutique web dev practice delivering full-stack websites and apps.",
       "highlights": [
-        "Delivered 15+ websites end-to-end (scoping, UX, build, launch).",
-        "Led a distributed team of developers/designers/SEO specialists.",
-        "Partnered with stakeholders across varied industries.",
-        "Owned delivery, quality, and timelines."
+        "Delivered 15+ full-stack websites end-to-end.",
+        "Led a distributed team (dev/design/SEO).",
+        "Owned delivery quality and timelines."
       ],
       "startDateDisplay": "01/01/2015",
       "endDateDisplay": "01/01/2017"
@@ -315,6 +298,19 @@
   ],
   "skills": [
     {
+      "name": "AI-Assisted Development & Prototyping",
+      "level": "Expert",
+      "keywords": [
+        "Cursor AI",
+        "Claude Code",
+        "GitHub Copilot",
+        "LLM pair-programming",
+        "Rapid prototyping",
+        "Code review with LLMs",
+        "Prompted code generation"
+      ]
+    },
+    {
       "name": "Product Leadership & Strategy",
       "level": "Expert",
       "keywords": [
@@ -342,7 +338,7 @@
     },
     {
       "name": "Frontend & Mobile",
-      "level": "Advanced",
+      "level": "Proficient",
       "keywords": [
         "Flutter Web",
         "Flutter",
@@ -355,7 +351,7 @@
     },
     {
       "name": "Backend & APIs",
-      "level": "Advanced",
+      "level": "Proficient",
       "keywords": [
         "REST",
         "API Integration",
@@ -476,6 +472,6 @@
   ],
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2025-09-01T05:12:59+00:00"
+    "lastModified": "2025-09-01T05:33:12+00:00"
   }
 }

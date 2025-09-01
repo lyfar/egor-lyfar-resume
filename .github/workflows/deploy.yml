@@ -32,7 +32,7 @@ jobs:
       - name: Export resume
         run: |
           npm install -g resume-cli
-          resume export index.html --theme onepage-plus
+          resume export index.html --theme ./themes/onepage-plus-custom
           
       - name: Setup Pages
         uses: actions/configure-pages@v4

@@ -1,0 +1,14 @@
+{
+    "name": "jsonresume-theme-onepage-plus-custom",
+    "version": "1.0.1-custom",
+    "description": "Custom version of onepage-plus theme with MM/DD/YYYY date format support.",
+    "author": "Egor Lyfar (based on work by Daniel A. Rodríguez Caballero & Veli K. Celik)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vkcelik/jsonresume-theme-onepage-plus"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "handlebars": "^2.0.0-alpha.4"
+    }
+}
