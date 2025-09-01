@@ -1,0 +1,20 @@
+# GitHub Pages configuration
+# This ensures that GitHub Pages serves the HTML file instead of README.md
+
+# Set the default layout
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+# Exclude files from processing
+exclude:
+  - node_modules
+  - .git
+  - .github
+  - package.json
+  - package-lock.json
+  - resume.json
+  - README.md
