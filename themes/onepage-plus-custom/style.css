@@ -49,6 +49,30 @@ a {
     font-size: 13px;
 }
 
+#headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+#nameBlock {
+    flex: 1;
+}
+
+#imageBlock {
+    margin-left: 20px;
+}
+
+.profileImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .sectionBlock {
     display: flex;
     width: 100%;
@@ -153,6 +177,19 @@ blockquote.reference {
     .smallFont {
         font-size: 14px;
     }
+    #headerSection {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #imageBlock {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .profileImage {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 @media print {
@@ -215,5 +252,14 @@ blockquote.reference {
     }
     .sectionContent .separator {
         height: 8px !important;
+    }
+    .profileImage {
+        width: 60px !important;
+        height: 60px !important;
+        border: 1px solid #999 !important;
+        box-shadow: none !important;
+    }
+    #headerSection {
+        margin-bottom: 10px !important;
     }
 }

@@ -1,10 +1,17 @@
 {{#resume.basics}}
-<div id='nameBlock' class='largeFont'>
-	<span class='name'>
-		{{name}}{{#if label}},{{/if}}
-	</span>
-	{{#if label}}
-	<span class='label'>{{label}}</span>
+<div id='headerSection'>
+	<div id='nameBlock' class='largeFont'>
+		<span class='name'>
+			{{name}}{{#if label}},{{/if}}
+		</span>
+		{{#if label}}
+		<span class='label'>{{label}}</span>
+		{{/if}}
+	</div>
+	{{#if image}}
+	<div id='imageBlock'>
+		<img src='{{image}}' alt='{{name}}' class='profileImage' />
+	</div>
 	{{/if}}
 </div>
 <div id='basicsBlock' class='smallFont'>
