@@ -2,163 +2,316 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Egor Lyfar",
-    "label": "Programmer",
+    "label": "Product Manager",
     "image": "",
     "email": "egor.lyfar@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "+852 5726 0632",
+    "url": "https://lyfar.com",
+    "summary": "Product Owner with a demonstrated track record of developing and introducing innovative products by leveraging market insights, identifying emerging trends, and seizing unique opportunities. 15 years in IT with 5-6 years specialized in product management.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Hong Kong",
+      "countryCode": "HK",
+      "region": "Central"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "LinkedIn",
+        "username": "egorlyfar",
+        "url": "https://linkedin.com/in/egorlyfar"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "Website",
+        "username": "lyfar",
+        "url": "https://lyfar.com"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "ZST",
+      "location": "Hong Kong",
+      "description": "FinTech, CFD Trading",
+      "position": "Business Analyst / Product Owner",
+      "url": "",
+      "startDate": "2020-01-01",
+      "endDate": "",
+      "summary": "Led product development for trading applications in a fast-paced FinTech environment, driving significant user growth and revenue increases.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Crafted and executed detailed product roadmap for trading application, emphasizing user-centric design",
+        "Led product life cycle of Trading App, achieving 30% surge in downloads and 25% increase in active users",
+        "Directed cross-functional teams to roll out new trading features, resulting in 10% uplift in trading volume",
+        "Utilized data-driven approach to refine features, boosting revenue by 15%",
+        "Conducted market research, identifying new revenue opportunities that enhanced annual revenue by 15%",
+        "Designed user-friendly onboarding process, reducing customer support inquiries by 20%",
+        "Overhauled KYC process, recovering $200,000 in funds and reducing customer service workload by 30%",
+        "Managed successful website relaunch, achieving 25% increase in traffic and 20% boost in user engagement",
+        "Improved overall customer satisfaction by 15% through prioritized user feedback integration"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "name": "Cointelegraph",
+      "location": "Remote",
+      "description": "Blockchain Media & Technology",
+      "position": "Product Consultant",
+      "url": "https://cointelegraph.com",
+      "startDate": "2023-01-01",
+      "endDate": "2023-09-01",
+      "summary": "Part-time consulting role focused on product strategy and roadmap development for leading blockchain media platform.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Partnered with CTO and business owner to craft forward-thinking product roadmap",
+        "Analyzed competitors, identifying industry trends and unique opportunities for differentiation",
+        "Orchestrated product audit leveraging user and stakeholder feedback to refine product direction",
+        "Bridged communication between stakeholders, aligning project goals with business objectives"
+      ]
+    },
+    {
+      "name": "Sweet Fashion House Ltd.",
+      "location": "Hong Kong",
+      "description": "Fashion Retail & E-commerce",
+      "position": "Business Development Director / Product Owner / IT",
+      "url": "",
+      "startDate": "2017-12-01",
+      "endDate": "2020-01-01",
+      "summary": "Led IT, web, and product initiatives while driving significant eCommerce growth and business development.",
+      "highlights": [
+        "Developed and executed eCommerce strategy resulting in 165% increase in revenue",
+        "Achieved 1.5% boost in conversion rate and 17% increase in average order value",
+        "Identified cost-saving opportunities, achieving savings of 2,000,000 HKD through strategic in-house management",
+        "Enhanced user experience by introducing and integrating new tools for seamless operations",
+        "Managed diverse product portfolio of over 600 items across online and retail platforms",
+        "Launched PR campaign that attracted 1,000,000 HKD investment",
+        "Enhanced retail user experience through interior design and digital content contributions"
+      ]
+    },
+    {
+      "name": "Neo Yachting S.A.S",
+      "location": "Nice, France",
+      "description": "Luxury Yacht Charter & Tourism",
+      "position": "Marketing and Digital Specialist",
+      "url": "",
+      "startDate": "2011-09-01",
+      "endDate": "2021-12-01",
+      "summary": "Managed end-to-end digital strategy and business development, creating innovative solutions for the luxury yacht industry.",
+      "highlights": [
+        "Developed new corporate website with UX and SEO optimizations, driving additional revenue of over 5,000,000 EUR",
+        "Created unique business model for yacht exchange program with website prototypes",
+        "Streamlined financial processes through VAT management, resulting in 40,000 EUR revenue increase",
+        "Orchestrated holistic marketing strategy across social media, email campaigns, and Google AdWords",
+        "Leveraged CRM tools to secure 50 yacht charter contracts with total value over 2,000,000 EUR"
+      ]
+    },
+    {
+      "name": "WEBDOM.FR",
+      "location": "France",
+      "description": "Web Development Agency",
+      "position": "Founder / Technical Lead",
+      "url": "",
+      "startDate": "2015-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Self-employed web development business, leading teams and delivering comprehensive web solutions.",
+      "highlights": [
+        "Oversaw end-to-end development of over 15 websites",
+        "Led team of freelancers including developers, designers, and SEO specialists",
+        "Established effective communication with diverse stakeholders across various industries",
+        "Successfully delivered web platforms showcasing versatility in design and functionality",
+        "Managed IT projects from inception to completion ensuring timely delivery and quality"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
+      "institution": "EDHEC Business School",
+      "url": "https://www.edhec.edu",
+      "area": "Finance and Marketing",
+      "studyType": "Bachelor of Business Administration",
+      "startDate": "2008-01-01",
+      "endDate": "2012-01-01",
+      "score": "",
+      "courses": []
+    },
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "institution": "Centre International de Valbonne",
+      "url": "https://www.civfrance.com",
+      "area": "Economics",
+      "studyType": "Baccalaureate",
+      "startDate": "2004-01-01",
+      "endDate": "2008-01-01",
+      "score": "",
+      "courses": []
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Product Management",
+      "level": "Expert",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Agile",
+        "Scrum",
+        "Waterfall",
+        "Roadmapping",
+        "Backlog Management",
+        "Requirements Gathering",
+        "User Stories"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "UX/UI Design",
+      "level": "Advanced",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Prototyping",
+        "Wireframing",
+        "Mockup",
+        "Figma",
+        "User Journey",
+        "User Personas"
+      ]
+    },
+    {
+      "name": "Analytics & Data",
+      "level": "Advanced",
+      "keywords": [
+        "Amplitude",
+        "Firebase",
+        "Google Analytics",
+        "GTM",
+        "KPI",
+        "Data Visualization"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "PHP",
+        "Headless CMS",
+        "No-Code/Low-Code",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
+      "name": "Creative Suite",
+      "level": "Advanced",
+      "keywords": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe InDesign",
+        "Adobe Premiere"
+      ]
+    },
+    {
+      "name": "AI & Emerging Tech",
+      "level": "Advanced",
+      "keywords": [
+        "OpenAI GPT",
+        "Whisper",
+        "Midjourney",
+        "Stable Diffusion",
+        "Prompt Engineering",
+        "Fine Tuning"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "French",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "Beginner"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Video Production",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Directing",
+        "Editing",
+        "Cinematography",
+        "Storyboarding",
+        "Post-production"
+      ]
+    },
+    {
+      "name": "Technology",
+      "keywords": [
+        "Self Hosting",
+        "Docker",
+        "VPN Server",
+        "Smart Home Automation",
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "name": "Psychology & Mindfulness",
+      "keywords": [
+        "Meditation",
+        "Social Psychology",
+        "Cognitive Psychology",
+        "Cognitive Biases"
       ]
     }
   ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Tatiana Delannoy",
+      "reference": "Head of Marketing, Chanel - Egor has solid project management skills. He is professional, reliable, and aims at delivering a perfect product for his client. He is creative and a good listener, he has a strong eye for detail and makes relevant suggestions to elevate further the project."
+    },
+    {
+      "name": "Paul Flannery",
+      "reference": "Executive Director, IYBA - Egor is a hard-working gentleman with superior talent in his interpersonal skills and technological knowledge. He has a rare creative ability, and in my experience, he will rise to any challenge presented to him. His serious work ethic, combined with his ability to communicate fluently in Russian, French, or English, positions him as a very valuable asset to any company."
+    },
+    {
+      "name": "Nicolas Valin",
+      "reference": "Director, Neo Yachting - I have been working with Egor since 2011 and have been consistently impressed with Egor's attitude and productivity. He successfully transitioned from marketing executive to yacht charter broker and continued as an independent contractor, helping us with web development, photo and video content, event management and social media strategy."
     }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Lyfar Studio",
+      "description": "Video production company creating content for top brands",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Founded video production company serving brands like Chanel and Swire Hotels",
+        "Directed 4-minute music video for recognized artist",
+        "Led industry masterclasses for 20+ participants",
+        "Built strong online presence: 10,000+ Instagram followers and 30M views on Unsplash",
+        "Managed end-to-end studio setup optimizing budget and quality"
       ],
       "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
+        "Video Production",
+        "Brand Campaigns",
+        "Creative Direction",
+        "Team Leadership"
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "startDate": "2014-01-01",
+      "endDate": "",
+      "url": "https://lyfar.com",
       "roles": [
-        "Team lead",
-        "Designer"
+        "Founder",
+        "Video Director",
+        "Videographer",
+        "Photographer"
       ],
-      "entity": "Smoogle",
-      "type": "application"
+      "entity": "Lyfar Studio",
+      "type": "business"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2024-01-15T10:00:00"
   }
 }
