@@ -18,8 +18,8 @@ html, body {
 
 /* Force consistent margins on ALL pages */
 #resume {
-    margin: 60px 80px 60px 80px !important;
-    padding: 0 !important;
+    margin: 0 !important;
+    padding: 40px !important;
     width: auto !important;
     max-width: none !important;
     background: white;
@@ -131,13 +131,8 @@ a {
     color: #333;
 }
 
-/* Aggressive print styles */
+/* Print styles for puppeteer */
 @media print {
-    @page {
-        margin: 0;
-        size: A4;
-    }
-    
     html, body {
         margin: 0 !important;
         padding: 0 !important;
@@ -145,14 +140,14 @@ a {
     }
     
     #resume {
-        margin: 60px 80px 60px 80px !important;
-        padding: 0 !important;
+        margin: 0 !important;
+        padding: 40px !important;
         width: auto !important;
         max-width: none !important;
         background: white !important;
     }
     
-    /* Force page breaks to respect margins */
+    /* Page breaks */
     .sectionBlock,
     .jobBlock,
     .educationBlock,

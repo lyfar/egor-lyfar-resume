@@ -44,8 +44,9 @@ The resume will be available at `http://localhost:4000`
 # Export as HTML (styled web version)
 resume export resume.html --theme ./themes/onepage-plus-custom
 
-# Export as PDF (clean document version)
-resume export resume.pdf --theme ./themes/onepage-plus-pdf
+# Export as PDF (proper generation with consistent margins)
+resume export resume.html --theme ./themes/onepage-plus-pdf
+node generate-pdf.js
 ```
 
 #### Edit Resume

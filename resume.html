@@ -8,78 +8,76 @@
 	<title>Egor Lyfar</title>
 
 	<style>
-	body {
-    background: #EEEEEE;
-    font: 13px "Times New Roman", Times, sans-serif;
-    line-height: 1.4;
-    margin: 40px 0;
+	/* Ultra-simple PDF theme with forced margins */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-em {
-    color: #999;
+html, body {
+    background: white;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Force consistent margins on ALL pages */
+#resume {
+    margin: 0 !important;
+    padding: 40px !important;
+    width: auto !important;
+    max-width: none !important;
+    background: white;
+}
+
+/* Typography */
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 16px 0 8px 0;
 }
 
 p {
-    line-height: 1.4;
+    margin: 4px 0;
 }
 
 ul {
-    margin-bottom: 0;
+    margin: 4px 0;
+    padding-left: 18px;
 }
 
 li {
     margin-bottom: 2px;
 }
 
-a {
-    text-decoration: none;
-}
-
-#resume {
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 80px 100px;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 4px #aaa;
-    -webkit-box-shadow: 2px 2px 4px #aaa;
-}
-
-.coursesList {
-    width: 28%;
-    vertical-align: top;
-    display: inline-block;
-}
-
-.largeFont {
-    font-size: 20px;
-}
-
-.smallFont {
-    font-size: 13px;
-}
-
+/* Layout */
 .sectionBlock {
     display: flex;
-    width: 100%;
+    margin-bottom: 12px;
+    page-break-inside: avoid;
 }
 
 .sectionName {
-    width: 18%;
-    vertical-align: top;
-    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+    font-size: 10pt;
+    text-transform: uppercase;
+    padding-right: 10px;
 }
 
 .sectionContent {
     width: 80%;
-    vertical-align: top;
-    display: inline-block;
-}
-
-.sectionContent ul {
-    padding-left: 20px;
-    margin-top: 6px;
-    list-style-type: circle;
 }
 
 .sectionContent .title {
@@ -88,115 +86,84 @@ a {
 
 .sectionContent .date {
     float: right;
-}
-
-.sectionContent .separator {
-    height: 14px;
+    font-size: 10pt;
+    color: #333;
 }
 
 .sectionLine {
-    border-style: dashed;
-    border-width: 1px;
-    border-color: #CFCFCF;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-top: 1px solid #ccc;
+    margin: 8px 0;
 }
 
-.divider {
-    font-weight: bold;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.summary {
-    margin-top: 6px;
-}
-
-.skillBlock {
-    margin-bottom: 4px;
-}
-
-.jobBlock {
+.jobBlock, .educationBlock, .projectBlock {
+    margin-bottom: 12px;
     page-break-inside: avoid;
 }
 
-.description {
+.blockHeader {
+    margin-bottom: 4px;
+}
+
+.position, .entity {
+    font-style: italic;
+    color: #333;
+}
+
+.summary {
+    margin: 4px 0;
     text-align: justify;
 }
 
-blockquote.reference {
-    margin: 0;
-    margin-bottom: 1em;
+.highlights {
+    margin: 4px 0;
 }
 
-
-/* Media Queries */
-
-@media only screen and (max-width: 40em) {
-    body {
-        margin: 0;
-        font-size: 14px;
-    }
-    #resume {
-        margin: 0 auto;
-        max-width: 600px;
-        padding: 0.5em 1em;
-        border: none;
-    }
-    .sectionBlock {
-        flex-direction: column;
-    }
-    .sectionContent {
-        width: 100%;
-    }
-    .sectionContent .date {
-        padding-right: 2em;
-    }
-    .sectionName {
-        width: auto;
-    }
-    .largeFont {
-        font-size: 20px;
-    }
-    .smallFont {
-        font-size: 14px;
-    }
+.skillBlock {
+    margin-bottom: 6px;
 }
 
+.divider {
+    margin: 0 5px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.largeFont {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.smallFont {
+    font-size: 10pt;
+    color: #333;
+}
+
+/* Print styles for puppeteer */
 @media print {
-    * {
-        background: transparent !important;
-        color: black !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
     html, body {
-        background: white !important;
         margin: 0 !important;
         padding: 0 !important;
-        font-size: 12pt;
-        line-height: 1.4;
+        background: white !important;
     }
-    @page {
-        margin: 2cm;
-        size: A4;
-    }
+    
     #resume {
         margin: 0 !important;
+        padding: 40px !important;
+        width: auto !important;
         max-width: none !important;
-        width: 100% !important;
-        padding: 0 !important;
-        border: none !important;
         background: white !important;
-        box-shadow: none !important;
-        -webkit-box-shadow: none !important;
     }
-    a {
-        color: black !important;
-        text-decoration: underline;
-    }
-    .sectionLine {
-        border-color: #000 !important;
+    
+    /* Page breaks */
+    .sectionBlock,
+    .jobBlock,
+    .educationBlock,
+    .projectBlock {
+        page-break-inside: avoid;
+        break-inside: avoid;
     }
 }
 	</style>
