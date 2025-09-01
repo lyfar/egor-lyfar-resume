@@ -177,10 +177,14 @@ a {
         background: white !important;
     }
     
+    /* Disable flex to allow smoother page flow and avoid large gaps */
+    .sectionBlock { display: block !important; }
+    .sectionName, .sectionContent { width: 100% !important; display: block !important; }
+    .sectionName { margin-bottom: 6px; }
+
     .jobBlock,
     .educationBlock,
-    .projectBlock,
-    #projectsBlock {
+    .projectBlock {
         page-break-inside: avoid;
         break-inside: avoid;
     }
