@@ -154,20 +154,23 @@ blockquote.reference {
 }
 
 @media print {
-    body {
-        background: #FFFFFF;
-    }
-    #resume {
-        margin: 0 auto;
-        max-width: 600px;
-        padding: 80px 100px;
-        border: 0px;
-        background: #fff;
-        box-shadow: none;
-        -webkit-box-shadow: none;
+    html, body {
+        background: #FFFFFF !important;
+        margin: 0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
     @page {
+        margin: 20mm;
+    }
+    #resume {
         margin: 0;
+        max-width: none;
+        padding: 0;
+        border: 0;
+        background: #fff !important;
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
     }
     a {
         color: black;
