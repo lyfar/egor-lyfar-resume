@@ -59,11 +59,7 @@ li {
 .sectionBlock {
     display: flex;
     margin-bottom: 16px;
-    page-break-inside: avoid;
 }
-
-/* Avoid breaking just before a new major section */
-#projectsBlock { page-break-before: avoid; break-before: avoid; }
 
 .sectionName {
     width: 22%;
@@ -181,7 +177,6 @@ a {
         background: white !important;
     }
     
-    .sectionBlock,
     .jobBlock,
     .educationBlock,
     .projectBlock,
