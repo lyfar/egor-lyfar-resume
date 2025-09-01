@@ -30,9 +30,9 @@
   },
   "work": [
     {
-      "name": "ZST",
-      "location": "Hong Kong",
-      "description": "FinTech, CFD Trading",
+      "name": "ZFX",
+      "location": "Hong Kong", 
+      "description": "FinTech, Forex Broker, CFD Trading",
       "position": "Business Analyst / Product Owner",
       "url": "",
       "startDate": "2020-01-01",
@@ -153,19 +153,83 @@
         "Roadmapping",
         "Backlog Management",
         "Requirements Gathering",
-        "User Stories"
+        "User Stories",
+        "Product Strategy"
       ]
     },
     {
-      "name": "UX/UI Design",
+      "name": "UX/UI Design & Prototyping",
       "level": "Advanced",
       "keywords": [
+        "Figma",
         "Prototyping",
         "Wireframing",
-        "Mockup",
-        "Figma",
-        "User Journey",
-        "User Personas"
+        "Interactive Mockups",
+        "User Journey Mapping",
+        "User Personas",
+        "Design Systems",
+        "Rapid Prototyping"
+      ]
+    },
+    {
+      "name": "Programming & Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP",
+        "Python",
+        "API Integration",
+        "Frontend Development",
+        "Backend Development",
+        "Full-Stack Development"
+      ]
+    },
+    {
+      "name": "AI Development & Integration",
+      "level": "Expert",
+      "keywords": [
+        "OpenAI API",
+        "GPT Models",
+        "Claude API",
+        "Chatbot Development",
+        "AI Service Architecture",
+        "Custom AI Solutions",
+        "AI Image Generation",
+        "AI Video Models",
+        "Prompt Engineering",
+        "Model Fine-tuning"
+      ]
+    },
+    {
+      "name": "DevOps & Hosting",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Self-Hosting",
+        "Server Management",
+        "VPS Administration",
+        "Cloud Services",
+        "Service Orchestration",
+        "CI/CD",
+        "Git",
+        "Version Control"
+      ]
+    },
+    {
+      "name": "Modern Development Tools",
+      "level": "Advanced",
+      "keywords": [
+        "Cursor AI",
+        "Claude Code",
+        "GitHub Copilot",
+        "AI-Assisted Coding",
+        "Vibe Coding",
+        "VS Code",
+        "Modern IDEs",
+        "Headless CMS",
+        "No-Code/Low-Code"
       ]
     },
     {
@@ -176,43 +240,24 @@
         "Firebase",
         "Google Analytics",
         "GTM",
-        "KPI",
-        "Data Visualization"
+        "KPI Tracking",
+        "Data Visualization",
+        "A/B Testing",
+        "User Behavior Analysis"
       ]
     },
     {
-      "name": "Technical Skills",
-      "level": "Intermediate",
+      "name": "Creative & Media Production",
+      "level": "Expert",
       "keywords": [
-        "HTML",
-        "CSS",
-        "PHP",
-        "Headless CMS",
-        "No-Code/Low-Code",
-        "Docker",
-        "Git"
-      ]
-    },
-    {
-      "name": "Creative Suite",
-      "level": "Advanced",
-      "keywords": [
-        "Adobe Photoshop",
-        "Adobe Illustrator",
-        "Adobe InDesign",
-        "Adobe Premiere"
-      ]
-    },
-    {
-      "name": "AI & Emerging Tech",
-      "level": "Advanced",
-      "keywords": [
-        "OpenAI GPT",
-        "Whisper",
-        "Midjourney",
-        "Stable Diffusion",
-        "Prompt Engineering",
-        "Fine Tuning"
+        "Adobe Creative Suite",
+        "Photoshop",
+        "Illustrator",
+        "InDesign",
+        "Premiere Pro",
+        "Video Production",
+        "AI Image Generation",
+        "AI Video Generation"
       ]
     }
   ],
