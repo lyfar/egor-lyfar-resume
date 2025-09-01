@@ -54,14 +54,17 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 15px;
+    min-height: 90px;
 }
 
 #nameBlock {
     flex: 1;
+    min-width: 0;
 }
 
 #imageBlock {
     margin-left: 20px;
+    flex-shrink: 0;
 }
 
 .profileImage {
@@ -71,6 +74,7 @@ a {
     object-fit: cover;
     border: 2px solid #ccc;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: block;
 }
 
 .sectionBlock {
@@ -206,7 +210,7 @@ blockquote.reference {
     #resume {
         margin: 0 auto !important;
         max-width: 700px !important;
-        padding: 30px 50px !important;
+        padding: 60px 80px !important;
         border: 0px !important;
         background: #fff !important;
         box-shadow: none !important;
@@ -261,5 +265,17 @@ blockquote.reference {
     }
     #headerSection {
         margin-bottom: 10px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+        min-height: 70px !important;
+    }
+    #nameBlock {
+        flex: 1 !important;
+        min-width: 0 !important;
+    }
+    #imageBlock {
+        margin-left: 15px !important;
+        flex-shrink: 0 !important;
     }
 }
