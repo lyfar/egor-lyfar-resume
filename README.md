@@ -5,8 +5,9 @@ This is my professional resume built using [JSON Resume](https://jsonresume.org/
 ## Features
 
 - Built with JSON Resume framework
+- Uses the onepage-plus theme for a modern, single-page layout
 - Responsive design
-- Multiple export formats (HTML, PDF, Markdown, Text)
+- Multiple export formats (HTML, PDF)
 - Easy to maintain and update
 
 ## Getting Started
@@ -33,23 +34,17 @@ This is my professional resume built using [JSON Resume](https://jsonresume.org/
 
 #### View Resume Online
 ```bash
-resume serve
+resume serve --theme onepage-plus
 ```
 The resume will be available at `http://localhost:4000`
 
 #### Export Resume
 ```bash
 # Export as HTML
-resume export resume.html
+resume export resume.html --theme onepage-plus
 
 # Export as PDF
-resume export resume.pdf
-
-# Export as Markdown
-resume export resume.md
-
-# Export as Text
-resume export resume.txt
+resume export resume.pdf --theme onepage-plus
 ```
 
 #### Edit Resume
