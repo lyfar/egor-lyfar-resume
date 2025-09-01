@@ -58,6 +58,8 @@ Edit the `resume.json` file to update your information. The JSON Resume schema i
 ## Structure
 
 - `resume.json` - Main resume data in JSON format
+- `resume.html` - Exported HTML version of the resume
+- `resume.pdf` - Exported PDF version of the resume
 - `README.md` - This file
 
 ## License
