@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Egor Lyfar",
+    "label": "Technical Product Manager (AI & FinTech)",
+    "email": "egor.lyfar@gmail.com",
+    "phone": "+852 5726 0632",
+    "url": "https://lyfar.com",
+    "summary": "Product leader shipping web/mobile products with AI-assisted development. 15+ yrs in IT, 5–6 yrs in product. FinTech trading, CRM/automation, data-driven growth.",
+    "location": { "city": "Hong Kong", "countryCode": "HK" },
+    "profiles": [
+      { "network": "LinkedIn", "username": "egorlyfar", "url": "https://linkedin.com/in/egorlyfar" }
+    ]
+  },
+  "work": [
+    {
+      "name": "ZFX (Forex Broker)",
+      "location": "Hong Kong",
+      "position": "Business Analyst / Product Manager",
+      "startDate": "2020-01-01",
+      "endDate": "2025-09-15",
+      "summary": "Owned roadmap for trading PWA; delivered onboarding/KYC/payments and trading UX.",
+      "highlights": [
+        "+30% downloads, +25% active users; features lifted trading volume ~10%",
+        "KYC overhaul: ~US$200k recovered; ~30% fewer support tickets",
+        "Website relaunch: +25% traffic, +20% engagement"
+      ]
+    },
+    {
+      "name": "Cointelegraph",
+      "location": "Remote",
+      "position": "Product Consultant / Product Manager",
+      "startDate": "2023-01-01",
+      "endDate": "2023-09-01",
+      "summary": "Part-time product strategy and roadmap",
+      "highlights": [
+        "Partnered with CTO/owner on roadmap & KPIs",
+        "Competitive analysis; sequencing & differentiation"
+      ]
+    },
+    {
+      "name": "Sweet Fashion House",
+      "location": "Hong Kong",
+      "position": "Business Development Director / Technical PM",
+      "startDate": "2017-12-01",
+      "endDate": "2020-01-01",
+      "summary": "Led eCommerce & IT; scaled online revenue",
+      "highlights": [
+        "+165% revenue; +1.5pp CR; +17% AOV",
+        "~HK$2M savings via in-house platform & process"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "HSBC Digital Trading Prototype (Flutter Web)",
+      "url": "https://hsbc-digital.vercel.app",
+      "summary": "Trading UI prototype: order ticket, watchlist, portfolio"
+    },
+    {
+      "name": "Forex Trading App Prototype (Web)",
+      "url": "https://forex-trading-app-omega.vercel.app",
+      "summary": "Web prototype: instruments, filters, ticket, portfolio"
+    },
+    {
+      "name": "Gweilo Weather Agent",
+      "url": "https://gweilo.egor.lol",
+      "summary": "Agent fetching HKO weather via APIs"
+    }
+  ],
+  "education": [
+    {
+      "institution": "EDHEC Business School",
+      "studyType": "BBA",
+      "area": "Finance & Marketing",
+      "startDate": "2008-01-01",
+      "endDate": "2012-01-01"
+    }
+  ],
+  "skills": [
+    { "name": "Product", "level": "Expert", "keywords": ["Roadmaps", "Discovery", "PRDs", "OKRs", "GTM"] },
+    { "name": "AI/LLM", "level": "Advanced", "keywords": ["OpenAI", "Claude", "Chatbots", "RAG", "Prompting"] },
+    { "name": "Frontend/Mobile", "level": "Advanced", "keywords": ["React", "Next.js", "Flutter", "SwiftUI", "TypeScript"] },
+    { "name": "Backend/APIs", "level": "Proficient", "keywords": ["Node.js", "Python", "REST", "Postgres", "Supabase"] },
+    { "name": "Data", "level": "Advanced", "keywords": ["GA", "GTM", "Amplitude", "Experimentation"] }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "Russian", "fluency": "Native" },
+    { "language": "French", "fluency": "Fluent" }
+  ],
+  "meta": { "version": "v1.0.0" }
+}
