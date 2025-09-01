@@ -9,22 +9,23 @@ async function generatePDF() {
   const htmlPath = path.join(__dirname, 'resume.html');
   await page.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
   
-  // Generate PDF with proper margins
+  // Generate PDF with professional margins
   await page.pdf({
-    path: 'resume-proper.pdf',
+    path: 'resume.pdf',
     format: 'A4',
     margin: {
-      top: '2cm',
-      right: '2.5cm',
-      bottom: '2cm', 
-      left: '2.5cm'
+      top: '1.5cm',
+      right: '2cm',
+      bottom: '1.5cm', 
+      left: '2cm'
     },
     printBackground: true,
-    displayHeaderFooter: false
+    displayHeaderFooter: false,
+    preferCSSPageSize: false
   });
   
   await browser.close();
-  console.log('✅ PDF generated successfully: resume-proper.pdf');
+  console.log('✅ PDF generated successfully: resume.pdf');
 }
 
 generatePDF().catch(console.error);
