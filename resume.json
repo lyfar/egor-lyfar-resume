@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Egor Lyfar",
-    "label": "Technical Product Manager (AI & FinTech)",
+    "label": "Technical Product Manager",
     "image": "",
     "email": "egor.lyfar@gmail.com",
     "phone": "+852 5726 0632",
-    "summary": "Technical Product Manager (AI & FinTech). I ship production apps using AI-assisted development (Cursor, Copilot, Claude Code) across TypeScript/Next.js, SwiftUI, Flutter Web, and Python. Strong at rapid prototyping, integrations, and taking features to production with engineers for deeper systems. 15+ years in IT with 5-6 years in product leadership; multilingual (EN/RU/FR).",
+    "summary": "Technical Product Manager. I lead discovery, roadmaps, and delivery; turn ambiguity into outcomes; prototype quickly with AI-assisted development; and partner with engineers on deeper systems. Energetic, clear, collaborative-with just enough humor to keep momentum.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -110,96 +110,9 @@
   ],
   "projects": [
     {
-      "name": "Lyfar Studio",
-      "description": "Video production company creating content for top brands",
-      "highlights": [
-        "Founded studio; clients include Chanel, Swire Hotels, and others.",
-        "Directed a 4-minute music video for a recognized artist.",
-        "Led masterclasses for 20+ participants.",
-        "Built online presence (10k+ Instagram followers, 30M views on Unsplash).",
-        "Optimized a full studio setup balancing cost and quality."
-      ],
-      "keywords": [
-        "Video Production",
-        "Brand Campaigns",
-        "Creative Direction",
-        "Team Leadership"
-      ],
-      "startDate": "2014-01-01",
-      "url": "https://www.lyfar.com",
-      "roles": [
-        "Founder",
-        "Video Director",
-        "Videographer",
-        "Photographer"
-      ],
-      "entity": "Lyfar Studio",
-      "type": "business",
-      "startDateDisplay": "01/01/2014"
-    },
-    {
-      "name": "AI-SEO Platform (Hospitality)",
-      "description": "SaaS concept for hotels/hospitality: domain analysis, content themes, and LLM scoring using search APIs + ranking heuristics.",
-      "highlights": [
-        "Designed data pipeline (keyword intel -> clustering -> LLM scoring).",
-        "Prototyped operator workflows and reporting dashboards.",
-        "Explored pricing, go-to-market, and AI-assisted content briefs."
-      ],
-      "keywords": [
-        "LLM",
-        "DataForSEO",
-        "Content Intelligence",
-        "SaaS"
-      ],
-      "startDate": "2024-01-01",
-      "type": "application",
-      "startDateDisplay": "01/01/2024"
-    },
-    {
-      "name": "PMQ Outreach CRM (Custom)",
-      "description": "Custom CRM for local outreach with email integration and AI-personalized messaging.",
-      "highlights": [
-        "Modeled custom objects and pipeline stages.",
-        "Drafted AI-assisted email templates and contact research flows.",
-        "Explored IMAP/Gmail integration and deduping logic."
-      ],
-      "keywords": [
-        "CRM",
-        "LLM",
-        "Automation",
-        "IMAP"
-      ],
-      "startDate": "2024-06-01",
-      "type": "application",
-      "startDateDisplay": "01/06/2024"
-    },
-    {
-      "name": "Raining Waffle (iOS)",
-      "description": "Weather-art app visualizing Hong Kong rainfall/wind/atmospherics using local data sources.",
-      "highlights": [
-        "Prototyped SwiftUI UI with particle/flow visualizations.",
-        "Mapped local APIs and data refresh strategies.",
-        "Explored \"ambient mode\" for mood lighting/charging state."
-      ],
-      "keywords": [
-        "SwiftUI",
-        "Data Viz",
-        "HK Observatory",
-        "Creative Tech"
-      ],
-      "startDate": "2024-07-01",
-      "type": "application",
-      "startDateDisplay": "01/07/2024"
-    },
-    {
       "name": "HSBC Digital Trading Prototype (Flutter Web)",
       "url": "https://hsbc-digital.vercel.app",
-      "description": "Interactive trading UI prototype built in Flutter Web as part of a job application/assessment; not affiliated with HSBC.",
-      "highlights": [
-        "Order ticket (market/pending), watchlist, and portfolio views.",
-        "Responsive layout and componentized UI primitives.",
-        "Demonstrated rapid prototyping and platform thinking."
-      ],
+      "description": "Flutter Web prototype of a retail trading app-order ticket, watchlist, portfolio. Built for an assessment; not affiliated with HSBC.",
       "keywords": [
         "Flutter",
         "Flutter Web",
@@ -209,30 +122,22 @@
       "type": "prototype"
     },
     {
-      "name": "Twenty CRM Telegram Bot",
-      "description": "Telegram bot integrating with Twenty CRM for company information retrieval and notes management.",
-      "highlights": [
-        "Search and fetch company records via chat commands.",
-        "Allow note capture and retrieval inside Telegram.",
-        "Dockerized and deployable on Synology NAS via Portainer."
-      ],
+      "name": "Forex Trading App Prototype (Web)",
+      "url": "https://forex-trading-app-omega.vercel.app",
+      "description": "Web prototype of a forex trading app-instrument lists & filters, deal ticket, and portfolio overview.",
       "keywords": [
-        "Telegram Bot API",
-        "Twenty CRM",
-        "Docker",
-        "Synology",
-        "Portainer"
+        "Trading",
+        "Prototype",
+        "Web App",
+        "Portfolio",
+        "Order Ticket"
       ],
-      "type": "application"
+      "type": "prototype"
     },
     {
       "name": "Gweilo Weather Agent",
       "url": "https://gweilo.egor.lol",
-      "description": "Agent that retrieves Hong Kong weather via HKO APIs (VPN-gated).",
-      "highlights": [
-        "Automates retrieval and summarization of HKO weather data.",
-        "Designed for lightweight, low-latency responses."
-      ],
+      "description": "Lightweight agent that queries HKO APIs to report Hong Kong weather (VPN-gated).",
       "keywords": [
         "HK Observatory API",
         "Agent",
@@ -243,11 +148,7 @@
     {
       "name": "Brief.lyfar.com (Automated Briefs)",
       "url": "https://brief.lyfar.com/mox.com",
-      "description": "Automates brand discovery and generates creative/video briefs and SMM strategy using LLMs.",
-      "highlights": [
-        "Fetches brand details, summarizes positioning, and drafts brief outlines.",
-        "Outputs suggested content angles and social schedule starters."
-      ],
+      "description": "LLM-driven tool that fetches brand data and drafts creative/video briefs and a starter SMM plan.",
       "keywords": [
         "LLM",
         "Brief Generator",
@@ -256,13 +157,73 @@
       "type": "application"
     },
     {
+      "name": "Lyfar Studio",
+      "description": "Video production company creating content for top brands",
+      "keywords": [
+        "Video Production",
+        "Brand Campaigns",
+        "Creative Direction",
+        "Team Leadership"
+      ],
+      "url": "https://www.lyfar.com",
+      "roles": [
+        "Founder",
+        "Video Director",
+        "Videographer",
+        "Photographer"
+      ],
+      "entity": "Lyfar Studio",
+      "type": "business"
+    },
+    {
+      "name": "AI-SEO Platform (Hospitality)",
+      "description": "SaaS concept for hotels/hospitality: domain analysis, content themes, and LLM scoring using search APIs + ranking heuristics.",
+      "keywords": [
+        "LLM",
+        "DataForSEO",
+        "Content Intelligence",
+        "SaaS"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "PMQ Outreach CRM (Custom)",
+      "description": "Custom CRM for local outreach with email integration and AI-personalized messaging.",
+      "keywords": [
+        "CRM",
+        "LLM",
+        "Automation",
+        "IMAP"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Raining Waffle (iOS)",
+      "description": "Weather-art app visualizing Hong Kong rainfall/wind/atmospherics using local data sources.",
+      "keywords": [
+        "SwiftUI",
+        "Data Viz",
+        "HK Observatory",
+        "Creative Tech"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Twenty CRM Telegram Bot",
+      "description": "Telegram bot integrating with Twenty CRM for company information retrieval and notes management.",
+      "keywords": [
+        "Telegram Bot API",
+        "Twenty CRM",
+        "Docker",
+        "Synology",
+        "Portainer"
+      ],
+      "type": "application"
+    },
+    {
       "name": "Put Me Behind the Bar",
       "url": "https://putmebehindthebar.egor.lol",
       "description": "Fun photo generation service that places bar visitors 'behind the bar'.",
-      "highlights": [
-        "End-to-end image generation pipeline for quick novelty images.",
-        "Simple landing + queue/processing experience."
-      ],
       "keywords": [
         "Image Generation",
         "Creative Tech"
@@ -298,19 +259,6 @@
   ],
   "skills": [
     {
-      "name": "AI-Assisted Development & Prototyping",
-      "level": "Expert",
-      "keywords": [
-        "Cursor AI",
-        "Claude Code",
-        "GitHub Copilot",
-        "LLM pair-programming",
-        "Rapid prototyping",
-        "Code review with LLMs",
-        "Prompted code generation"
-      ]
-    },
-    {
       "name": "Product Leadership & Strategy",
       "level": "Expert",
       "keywords": [
@@ -324,16 +272,16 @@
       ]
     },
     {
-      "name": "AI/LLM Engineering",
-      "level": "Advanced",
+      "name": "AI-Assisted Development & Prototyping",
+      "level": "Expert",
       "keywords": [
-        "OpenAI API",
-        "Claude",
-        "Prompt Engineering",
-        "Chatbot Development",
-        "RAG",
-        "Fine-tuning",
-        "AI Service Architecture"
+        "Cursor AI",
+        "Claude Code",
+        "GitHub Copilot",
+        "LLM pair-programming",
+        "Rapid prototyping",
+        "Code review with LLMs",
+        "Prompted code generation"
       ]
     },
     {
@@ -394,6 +342,19 @@
         "Wireframing",
         "Interactive Prototypes",
         "Design Systems"
+      ]
+    },
+    {
+      "name": "AI/LLM Engineering",
+      "level": "Advanced",
+      "keywords": [
+        "OpenAI API",
+        "Claude",
+        "Prompt Engineering",
+        "Chatbot Development",
+        "RAG",
+        "Fine-tuning",
+        "AI Service Architecture"
       ]
     },
     {
@@ -472,6 +433,6 @@
   ],
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2025-09-01T05:33:12+00:00"
+    "lastModified": "2025-09-01T06:35:38+00:00"
   }
 }
