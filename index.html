@@ -11,8 +11,8 @@
 	body {
     background: #EEEEEE;
     font: 13px "Times New Roman", Times, sans-serif;
-    line-height: 1.4;
-    margin: 40px 0;
+    line-height: 1.3;
+    margin: 20px 0;
 }
 
 em {
@@ -37,8 +37,8 @@ a {
 
 #resume {
     margin: 0 auto;
-    max-width: 600px;
-    padding: 80px 100px;
+    max-width: 650px;
+    padding: 30px 45px;
     background: #fff;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 4px #aaa;
@@ -91,15 +91,15 @@ a {
 }
 
 .sectionContent .separator {
-    height: 14px;
+    height: 12px;
 }
 
 .sectionLine {
     border-style: dashed;
     border-width: 1px;
     border-color: #CFCFCF;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .divider {
@@ -109,15 +109,17 @@ a {
 }
 
 .summary {
-    margin-top: 6px;
+    margin-top: 4px;
+    margin-bottom: 6px;
 }
 
 .skillBlock {
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .jobBlock {
     page-break-inside: avoid;
+    margin-bottom: 10px;
 }
 
 .description {
@@ -164,32 +166,65 @@ blockquote.reference {
 }
 
 @media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
     body {
-        background: #FFFFFF;
-        margin: 0;
+        background: #FFFFFF !important;
+        margin: 0 !important;
+        font-size: 13px !important;
+        line-height: 1.4 !important;
     }
     #resume {
-        margin: 0 auto;
-        max-width: 600px;
-        padding: 40px 60px;
-        border: 0px;
-        background: #fff;
-        box-shadow: none;
-        -webkit-box-shadow: none;
+        margin: 0 auto !important;
+        max-width: 700px !important;
+        padding: 30px 50px !important;
+        border: 0px !important;
+        background: #fff !important;
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
     }
     .sectionContent .date {
-        float: right;
-        clear: none;
+        float: right !important;
+        clear: none !important;
+    }
+    .sectionContent ul {
+        padding-left: 18px !important;
+        margin-top: 6px !important;
+        margin-bottom: 8px !important;
+    }
+    .sectionContent li {
+        margin-bottom: 3px !important;
+        line-height: 1.3 !important;
     }
     a {
-        color: black;
+        color: black !important;
     }
     .jobBlock {
-        page-break-inside: avoid;
-        margin-bottom: 15px;
+        page-break-inside: avoid !important;
+        margin-bottom: 12px !important;
     }
     .sectionBlock {
-        margin-bottom: 20px;
+        margin-bottom: 18px !important;
+    }
+    .sectionLine {
+        margin-top: 8px !important;
+        margin-bottom: 8px !important;
+    }
+    .summary {
+        margin-top: 6px !important;
+        margin-bottom: 8px !important;
+        line-height: 1.3 !important;
+    }
+    .largeFont {
+        font-size: 20px !important;
+    }
+    .smallFont {
+        font-size: 13px !important;
+    }
+    .sectionContent .separator {
+        height: 8px !important;
     }
 }
 	</style>
