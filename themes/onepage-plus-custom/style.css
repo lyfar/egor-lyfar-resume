@@ -156,17 +156,55 @@ blockquote.reference {
 @media print {
     body {
         background: #FFFFFF;
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.5;
     }
     #resume {
         margin: 0 auto;
         max-width: 600px;
-        padding: 0px 0px;
+        padding: 40px 60px;
         border: 0px;
         background: #fff;
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+    .sectionContent .date {
+        float: right;
+        clear: none;
+    }
+    .sectionContent ul {
+        padding-left: 20px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+    .sectionContent li {
+        margin-bottom: 4px;
+        line-height: 1.4;
+    }
     a {
         color: black;
+    }
+    .jobBlock {
+        page-break-inside: avoid;
+        margin-bottom: 18px;
+    }
+    .sectionBlock {
+        margin-bottom: 25px;
+    }
+    .sectionLine {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .summary {
+        margin-top: 8px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+    .largeFont {
+        font-size: 22px;
+    }
+    .smallFont {
+        font-size: 14px;
     }
 }

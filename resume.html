@@ -166,18 +166,30 @@ blockquote.reference {
 @media print {
     body {
         background: #FFFFFF;
+        margin: 0;
     }
     #resume {
         margin: 0 auto;
         max-width: 600px;
-        padding: 0px 0px;
+        padding: 40px 60px;
         border: 0px;
         background: #fff;
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+    .sectionContent .date {
+        float: right;
+        clear: none;
+    }
     a {
         color: black;
+    }
+    .jobBlock {
+        page-break-inside: avoid;
+        margin-bottom: 15px;
+    }
+    .sectionBlock {
+        margin-bottom: 20px;
     }
 }
 	</style>
@@ -206,10 +218,6 @@ blockquote.reference {
 				<span class='url'>
 					<b>LinkedIn:</b> <a href='https://linkedin.com/in/egorlyfar'>https://linkedin.com/in/egorlyfar</a>
 				</span>
-				<span class='divider'>|</span>
-				<span class='url'>
-					<b>Website:</b> <a href='https://lyfar.com'>https://lyfar.com</a>
-				</span>
 				
 			</div>
 		</div>
@@ -220,7 +228,7 @@ blockquote.reference {
 				<span>SUMMARY</span>
 			</div>
 			<div class='sectionContent'>
-				<span>Technical Product Manager who ships web/mobile products end-to-end-discovery, roadmaps, UX, delivery. Comfortable coding with AI-assisted development (Cursor, Copilot, Claude Code) across TypeScript/Next.js, SwiftUI, Flutter Web, and Python. Strong in integrations and rapid prototyping; partner with engineers for deeper systems. 15+ years in IT with 5-6 years in product leadership; multilingual (EN/RU/FR).</span>
+				<span>Technical Product Manager. I lead discovery, roadmaps, and delivery; turn ambiguity into outcomes; prototype quickly with AI-assisted development; and partner with engineers on deeper systems. Energetic, clear, collaborative-with just enough humor to keep momentum.</span>
 			</div>
 		</div>
 		<div class='sectionLine'></div>
@@ -463,25 +471,71 @@ blockquote.reference {
 				<div class="projectBlock">
 					<div class='blockHeader'>
 						<span class='title'>
+							HSBC Digital Trading Prototype (Flutter Web)
+						</span>
+						
+						
+					</div>
+					<div><a href='https://hsbc-digital.vercel.app'>https://hsbc-digital.vercel.app</a></div>
+					<div class="description">
+						<p>Flutter Web prototype of a retail trading app-order ticket, watchlist, portfolio. Built for an assessment; not affiliated with HSBC.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Forex Trading App Prototype (Web)
+						</span>
+						
+						
+					</div>
+					<div><a href='https://forex-trading-app-omega.vercel.app'>https://forex-trading-app-omega.vercel.app</a></div>
+					<div class="description">
+						<p>Web prototype of a forex trading app-instrument lists &amp; filters, deal ticket, and portfolio overview.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Gweilo Weather Agent
+						</span>
+						
+						
+					</div>
+					<div><a href='https://gweilo.egor.lol'>https://gweilo.egor.lol</a></div>
+					<div class="description">
+						<p>Lightweight agent that queries HKO APIs to report Hong Kong weather (VPN-gated).</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Brief.lyfar.com (Automated Briefs)
+						</span>
+						
+						
+					</div>
+					<div><a href='https://brief.lyfar.com/mox.com'>https://brief.lyfar.com/mox.com</a></div>
+					<div class="description">
+						<p>LLM-driven tool that fetches brand data and drafts creative/video briefs and a starter SMM plan.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
 							Lyfar Studio
 						</span>
 						 | <span class="entity">Lyfar Studio</span>
 						 | <span class="roles">Founder, Video Director, Videographer, Photographer</span>
-						<span class='date'>
-							01/01/2014 &mdash; Present
-						</span>
 					</div>
 					<div><a href='https://www.lyfar.com'>https://www.lyfar.com</a></div>
 					<div class="description">
 						<p>Video production company creating content for top brands</p>
 					</div>
-					<ul class='highlights'>
-						<li>Founded studio; clients include Chanel, Swire Hotels, and others.</li>
-						<li>Directed a 4-minute music video for a recognized artist.</li>
-						<li>Led masterclasses for 20+ participants.</li>
-						<li>Built online presence (10k+ Instagram followers, 30M views on Unsplash).</li>
-						<li>Optimized a full studio setup balancing cost and quality.</li>
-					</ul>
 					<div class='separator'></div>
 				</div>
 				<div class="projectBlock">
@@ -491,19 +545,11 @@ blockquote.reference {
 						</span>
 						
 						
-						<span class='date'>
-							01/01/2024 &mdash; Present
-						</span>
 					</div>
 					<div><a href=''></a></div>
 					<div class="description">
 						<p>SaaS concept for hotels/hospitality: domain analysis, content themes, and LLM scoring using search APIs + ranking heuristics.</p>
 					</div>
-					<ul class='highlights'>
-						<li>Designed data pipeline (keyword intel -&gt; clustering -&gt; LLM scoring).</li>
-						<li>Prototyped operator workflows and reporting dashboards.</li>
-						<li>Explored pricing, go-to-market, and AI-assisted content briefs.</li>
-					</ul>
 					<div class='separator'></div>
 				</div>
 				<div class="projectBlock">
@@ -513,19 +559,11 @@ blockquote.reference {
 						</span>
 						
 						
-						<span class='date'>
-							01/06/2024 &mdash; Present
-						</span>
 					</div>
 					<div><a href=''></a></div>
 					<div class="description">
 						<p>Custom CRM for local outreach with email integration and AI-personalized messaging.</p>
 					</div>
-					<ul class='highlights'>
-						<li>Modeled custom objects and pipeline stages.</li>
-						<li>Drafted AI-assisted email templates and contact research flows.</li>
-						<li>Explored IMAP/Gmail integration and deduping logic.</li>
-					</ul>
 					<div class='separator'></div>
 				</div>
 				<div class="projectBlock">
@@ -535,38 +573,11 @@ blockquote.reference {
 						</span>
 						
 						
-						<span class='date'>
-							01/07/2024 &mdash; Present
-						</span>
 					</div>
 					<div><a href=''></a></div>
 					<div class="description">
 						<p>Weather-art app visualizing Hong Kong rainfall/wind/atmospherics using local data sources.</p>
 					</div>
-					<ul class='highlights'>
-						<li>Prototyped SwiftUI UI with particle/flow visualizations.</li>
-						<li>Mapped local APIs and data refresh strategies.</li>
-						<li>Explored &quot;ambient mode&quot; for mood lighting/charging state.</li>
-					</ul>
-					<div class='separator'></div>
-				</div>
-				<div class="projectBlock">
-					<div class='blockHeader'>
-						<span class='title'>
-							HSBC Digital Trading Prototype (Flutter Web)
-						</span>
-						
-						
-					</div>
-					<div><a href='https://hsbc-digital.vercel.app'>https://hsbc-digital.vercel.app</a></div>
-					<div class="description">
-						<p>Interactive trading UI prototype built in Flutter Web as part of a job application/assessment; not affiliated with HSBC.</p>
-					</div>
-					<ul class='highlights'>
-						<li>Order ticket (market/pending), watchlist, and portfolio views.</li>
-						<li>Responsive layout and componentized UI primitives.</li>
-						<li>Demonstrated rapid prototyping and platform thinking.</li>
-					</ul>
 					<div class='separator'></div>
 				</div>
 				<div class="projectBlock">
@@ -581,47 +592,6 @@ blockquote.reference {
 					<div class="description">
 						<p>Telegram bot integrating with Twenty CRM for company information retrieval and notes management.</p>
 					</div>
-					<ul class='highlights'>
-						<li>Search and fetch company records via chat commands.</li>
-						<li>Allow note capture and retrieval inside Telegram.</li>
-						<li>Dockerized and deployable on Synology NAS via Portainer.</li>
-					</ul>
-					<div class='separator'></div>
-				</div>
-				<div class="projectBlock">
-					<div class='blockHeader'>
-						<span class='title'>
-							Gweilo Weather Agent
-						</span>
-						
-						
-					</div>
-					<div><a href='https://gweilo.egor.lol'>https://gweilo.egor.lol</a></div>
-					<div class="description">
-						<p>Agent that retrieves Hong Kong weather via HKO APIs (VPN-gated).</p>
-					</div>
-					<ul class='highlights'>
-						<li>Automates retrieval and summarization of HKO weather data.</li>
-						<li>Designed for lightweight, low-latency responses.</li>
-					</ul>
-					<div class='separator'></div>
-				</div>
-				<div class="projectBlock">
-					<div class='blockHeader'>
-						<span class='title'>
-							Brief.lyfar.com (Automated Briefs)
-						</span>
-						
-						
-					</div>
-					<div><a href='https://brief.lyfar.com/mox.com'>https://brief.lyfar.com/mox.com</a></div>
-					<div class="description">
-						<p>Automates brand discovery and generates creative/video briefs and SMM strategy using LLMs.</p>
-					</div>
-					<ul class='highlights'>
-						<li>Fetches brand details, summarizes positioning, and drafts brief outlines.</li>
-						<li>Outputs suggested content angles and social schedule starters.</li>
-					</ul>
 					<div class='separator'></div>
 				</div>
 				<div class="projectBlock">
@@ -636,10 +606,6 @@ blockquote.reference {
 					<div class="description">
 						<p>Fun photo generation service that places bar visitors &#x27;behind the bar&#x27;.</p>
 					</div>
-					<ul class='highlights'>
-						<li>End-to-end image generation pipeline for quick novelty images.</li>
-						<li>Simple landing + queue/processing experience.</li>
-					</ul>
 					
 				</div>
 			</div>
