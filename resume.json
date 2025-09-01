@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Egor Lyfar",
-    "label": "Product Manager",
+    "label": "Technical Product Manager (AI & FinTech)",
     "image": "",
     "email": "egor.lyfar@gmail.com",
     "phone": "+852 5726 0632",
     "url": "https://lyfar.com",
-    "summary": "Product Owner with a demonstrated track record of developing and introducing innovative products by leveraging market insights, identifying emerging trends, and seizing unique opportunities. 15 years in IT with 5-6 years specialized in product management.",
+    "summary": "Technical Product Manager with AI expertise. I design, build, and ship end-to-end products across web/mobile (Next.js, SwiftUI, Flutter Web) and integrate LLM capabilities (OpenAI, Claude) to drive measurable business impact. 15+ years in IT with 5-6 years in product leadership across FinTech trading platforms, CRM/automation, and data-driven growth. Multilingual (EN/RU/FR).",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,24 +31,25 @@
   "work": [
     {
       "name": "ZFX",
-      "location": "Hong Kong", 
+      "location": "Hong Kong",
       "description": "FinTech, Forex Broker, CFD Trading",
       "position": "Business Analyst / Product Owner",
-      "url": "",
       "startDate": "2020-01-01",
-      "endDate": "",
-      "summary": "Led product development for trading applications in a fast-paced FinTech environment, driving significant user growth and revenue increases.",
+      "summary": "Led product development for trading applications in a fast-paced FinTech environment; shipped user-centric features and platform improvements across web and mobile.",
       "highlights": [
-        "Crafted and executed detailed product roadmap for trading application, emphasizing user-centric design",
-        "Led product life cycle of Trading App, achieving 30% surge in downloads and 25% increase in active users",
-        "Directed cross-functional teams to roll out new trading features, resulting in 10% uplift in trading volume",
-        "Utilized data-driven approach to refine features, boosting revenue by 15%",
-        "Conducted market research, identifying new revenue opportunities that enhanced annual revenue by 15%",
-        "Designed user-friendly onboarding process, reducing customer support inquiries by 20%",
-        "Overhauled KYC process, recovering $200,000 in funds and reducing customer service workload by 30%",
-        "Managed successful website relaunch, achieving 25% increase in traffic and 20% boost in user engagement",
-        "Improved overall customer satisfaction by 15% through prioritized user feedback integration"
-      ]
+        "Crafted and executed a modular product roadmap for a PWA trading platform (onboarding, KYC, deposits, trading core, news/localization).",
+        "Drove growth for the Trading App with a 30% increase in downloads and 25% increase in active users.",
+        "Directed cross-functional delivery of new trading features, contributing to a 10% uplift in trading volume.",
+        "Used data-led iteration to refine features and pricing, supporting a 15% revenue increase.",
+        "Identified and validated new revenue opportunities via competitive and market research (+15% YoY revenue).",
+        "Designed a streamlined onboarding flow that reduced support inquiries by ~20%.",
+        "Overhauled KYC process, recovering ~US$200k and reducing CS workload by ~30%.",
+        "Managed a website relaunch, resulting in +25% traffic and +20% engagement.",
+        "Shipped rewards/bonus UX (e.g., claim flows, expiries) and integrated CMS-driven content for news, insights, and localization."
+      ],
+      "endDate": "2025-09-15",
+      "startDateDisplay": "01/01/2020",
+      "endDateDisplay": "15/09/2025"
     },
     {
       "name": "Cointelegraph",
@@ -58,66 +59,232 @@
       "url": "https://cointelegraph.com",
       "startDate": "2023-01-01",
       "endDate": "2023-09-01",
-      "summary": "Part-time consulting role focused on product strategy and roadmap development for leading blockchain media platform.",
+      "summary": "Part-time consulting on product strategy and roadmap for a leading blockchain media platform.",
       "highlights": [
-        "Partnered with CTO and business owner to craft forward-thinking product roadmap",
-        "Analyzed competitors, identifying industry trends and unique opportunities for differentiation",
-        "Orchestrated product audit leveraging user and stakeholder feedback to refine product direction",
-        "Bridged communication between stakeholders, aligning project goals with business objectives"
-      ]
+        "Partnered with CTO and business owner on a forward-looking product roadmap.",
+        "Analyzed competitors and trends to shape differentiation and sequencing.",
+        "Orchestrated a product audit using user and stakeholder feedback to refine direction.",
+        "Bridged business/engineering to align milestones and KPIs."
+      ],
+      "startDateDisplay": "01/01/2023",
+      "endDateDisplay": "01/09/2023"
     },
     {
       "name": "Sweet Fashion House Ltd.",
       "location": "Hong Kong",
       "description": "Fashion Retail & E-commerce",
       "position": "Business Development Director / Product Owner / IT",
-      "url": "",
       "startDate": "2017-12-01",
       "endDate": "2020-01-01",
-      "summary": "Led IT, web, and product initiatives while driving significant eCommerce growth and business development.",
+      "summary": "Led IT, web, and product initiatives while driving eCommerce growth and business development.",
       "highlights": [
-        "Developed and executed eCommerce strategy resulting in 165% increase in revenue",
-        "Achieved 1.5% boost in conversion rate and 17% increase in average order value",
-        "Identified cost-saving opportunities, achieving savings of 2,000,000 HKD through strategic in-house management",
-        "Enhanced user experience by introducing and integrating new tools for seamless operations",
-        "Managed diverse product portfolio of over 600 items across online and retail platforms",
-        "Launched PR campaign that attracted 1,000,000 HKD investment",
-        "Enhanced retail user experience through interior design and digital content contributions"
-      ]
+        "Developed and executed an eCommerce strategy producing +165% revenue.",
+        "Improved conversion rate (+1.5pp) and increased AOV (+17%).",
+        "Achieved ~HK$2,000,000 in savings via in-house tech and process optimization.",
+        "Rolled out new tooling for smoother retail operations and UX.",
+        "Managed a 600+ SKU multi-channel product portfolio.",
+        "Launched a PR campaign that attracted HK$1,000,000 investment.",
+        "Improved retail UX through physical space design and digital content."
+      ],
+      "startDateDisplay": "01/12/2017",
+      "endDateDisplay": "01/01/2020"
     },
     {
       "name": "Neo Yachting S.A.S",
       "location": "Nice, France",
       "description": "Luxury Yacht Charter & Tourism",
       "position": "Marketing and Digital Specialist",
-      "url": "",
       "startDate": "2011-09-01",
       "endDate": "2021-12-01",
-      "summary": "Managed end-to-end digital strategy and business development, creating innovative solutions for the luxury yacht industry.",
+      "summary": "Owned digital strategy and business development; created revenue-driving web properties and marketing programs.",
       "highlights": [
-        "Developed new corporate website with UX and SEO optimizations, driving additional revenue of over 5,000,000 EUR",
-        "Created unique business model for yacht exchange program with website prototypes",
-        "Streamlined financial processes through VAT management, resulting in 40,000 EUR revenue increase",
-        "Orchestrated holistic marketing strategy across social media, email campaigns, and Google AdWords",
-        "Leveraged CRM tools to secure 50 yacht charter contracts with total value over 2,000,000 EUR"
-      ]
+        "Built a new corporate website with UX/SEO improvements, generating >EUR 5,000,000 in additional revenue.",
+        "Prototyped a yacht exchange model and supporting web flows.",
+        "Optimized VAT flows, adding ~EUR 40,000 in revenue.",
+        "Led omni-channel marketing (social, email, Google Ads).",
+        "Leveraged CRM to close ~50 yacht charter contracts (>EUR 2,000,000 total value)."
+      ],
+      "startDateDisplay": "01/09/2011",
+      "endDateDisplay": "01/12/2021"
     },
     {
       "name": "WEBDOM.FR",
       "location": "France",
       "description": "Web Development Agency",
       "position": "Founder / Technical Lead",
-      "url": "",
       "startDate": "2015-01-01",
       "endDate": "2017-01-01",
-      "summary": "Self-employed web development business, leading teams and delivering comprehensive web solutions.",
+      "summary": "Founded and led a boutique web dev practice delivering full-stack websites and apps.",
       "highlights": [
-        "Oversaw end-to-end development of over 15 websites",
-        "Led team of freelancers including developers, designers, and SEO specialists",
-        "Established effective communication with diverse stakeholders across various industries",
-        "Successfully delivered web platforms showcasing versatility in design and functionality",
-        "Managed IT projects from inception to completion ensuring timely delivery and quality"
-      ]
+        "Delivered 15+ websites end-to-end (scoping, UX, build, launch).",
+        "Led a distributed team of developers/designers/SEO specialists.",
+        "Partnered with stakeholders across varied industries.",
+        "Owned delivery, quality, and timelines."
+      ],
+      "startDateDisplay": "01/01/2015",
+      "endDateDisplay": "01/01/2017"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lyfar Studio",
+      "description": "Video production company creating content for top brands",
+      "highlights": [
+        "Founded studio; clients include Chanel, Swire Hotels, and others.",
+        "Directed a 4-minute music video for a recognized artist.",
+        "Led masterclasses for 20+ participants.",
+        "Built online presence (10k+ Instagram followers, 30M views on Unsplash).",
+        "Optimized a full studio setup balancing cost and quality."
+      ],
+      "keywords": [
+        "Video Production",
+        "Brand Campaigns",
+        "Creative Direction",
+        "Team Leadership"
+      ],
+      "startDate": "2014-01-01",
+      "url": "https://www.lyfar.com",
+      "roles": [
+        "Founder",
+        "Video Director",
+        "Videographer",
+        "Photographer"
+      ],
+      "entity": "Lyfar Studio",
+      "type": "business",
+      "startDateDisplay": "01/01/2014"
+    },
+    {
+      "name": "AI-SEO Platform (Hospitality)",
+      "description": "SaaS concept for hotels/hospitality: domain analysis, content themes, and LLM scoring using search APIs + ranking heuristics.",
+      "highlights": [
+        "Designed data pipeline (keyword intel -> clustering -> LLM scoring).",
+        "Prototyped operator workflows and reporting dashboards.",
+        "Explored pricing, go-to-market, and AI-assisted content briefs."
+      ],
+      "keywords": [
+        "LLM",
+        "DataForSEO",
+        "Content Intelligence",
+        "SaaS"
+      ],
+      "startDate": "2024-01-01",
+      "type": "application",
+      "startDateDisplay": "01/01/2024"
+    },
+    {
+      "name": "PMQ Outreach CRM (Custom)",
+      "description": "Custom CRM for local outreach with email integration and AI-personalized messaging.",
+      "highlights": [
+        "Modeled custom objects and pipeline stages.",
+        "Drafted AI-assisted email templates and contact research flows.",
+        "Explored IMAP/Gmail integration and deduping logic."
+      ],
+      "keywords": [
+        "CRM",
+        "LLM",
+        "Automation",
+        "IMAP"
+      ],
+      "startDate": "2024-06-01",
+      "type": "application",
+      "startDateDisplay": "01/06/2024"
+    },
+    {
+      "name": "Raining Waffle (iOS)",
+      "description": "Weather-art app visualizing Hong Kong rainfall/wind/atmospherics using local data sources.",
+      "highlights": [
+        "Prototyped SwiftUI UI with particle/flow visualizations.",
+        "Mapped local APIs and data refresh strategies.",
+        "Explored \"ambient mode\" for mood lighting/charging state."
+      ],
+      "keywords": [
+        "SwiftUI",
+        "Data Viz",
+        "HK Observatory",
+        "Creative Tech"
+      ],
+      "startDate": "2024-07-01",
+      "type": "application",
+      "startDateDisplay": "01/07/2024"
+    },
+    {
+      "name": "HSBC Digital Trading Prototype (Flutter Web)",
+      "url": "https://hsbc-digital.vercel.app",
+      "description": "Interactive trading UI prototype built in Flutter Web as part of a job application/assessment; not affiliated with HSBC.",
+      "highlights": [
+        "Order ticket (market/pending), watchlist, and portfolio views.",
+        "Responsive layout and componentized UI primitives.",
+        "Demonstrated rapid prototyping and platform thinking."
+      ],
+      "keywords": [
+        "Flutter",
+        "Flutter Web",
+        "Trading UI",
+        "Prototype"
+      ],
+      "type": "prototype"
+    },
+    {
+      "name": "Twenty CRM Telegram Bot",
+      "description": "Telegram bot integrating with Twenty CRM for company information retrieval and notes management.",
+      "highlights": [
+        "Search and fetch company records via chat commands.",
+        "Allow note capture and retrieval inside Telegram.",
+        "Dockerized and deployable on Synology NAS via Portainer."
+      ],
+      "keywords": [
+        "Telegram Bot API",
+        "Twenty CRM",
+        "Docker",
+        "Synology",
+        "Portainer"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Gweilo Weather Agent",
+      "url": "https://gweilo.egor.lol",
+      "description": "Agent that retrieves Hong Kong weather via HKO APIs (VPN-gated).",
+      "highlights": [
+        "Automates retrieval and summarization of HKO weather data.",
+        "Designed for lightweight, low-latency responses."
+      ],
+      "keywords": [
+        "HK Observatory API",
+        "Agent",
+        "Automation"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Brief.lyfar.com (Automated Briefs)",
+      "url": "https://brief.lyfar.com/mox.com",
+      "description": "Automates brand discovery and generates creative/video briefs and SMM strategy using LLMs.",
+      "highlights": [
+        "Fetches brand details, summarizes positioning, and drafts brief outlines.",
+        "Outputs suggested content angles and social schedule starters."
+      ],
+      "keywords": [
+        "LLM",
+        "Brief Generator",
+        "Marketing Automation"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Put Me Behind the Bar",
+      "url": "https://putmebehindthebar.egor.lol",
+      "description": "Fun photo generation service that places bar visitors 'behind the bar'.",
+      "highlights": [
+        "End-to-end image generation pipeline for quick novelty images.",
+        "Simple landing + queue/processing experience."
+      ],
+      "keywords": [
+        "Image Generation",
+        "Creative Tech"
+      ],
+      "type": "application"
     }
   ],
   "education": [
@@ -129,7 +296,9 @@
       "startDate": "2008-01-01",
       "endDate": "2012-01-01",
       "score": "",
-      "courses": []
+      "courses": [],
+      "startDateDisplay": "01/01/2008",
+      "endDateDisplay": "01/01/2012"
     },
     {
       "institution": "Centre International de Valbonne",
@@ -139,67 +308,74 @@
       "startDate": "2004-01-01",
       "endDate": "2008-01-01",
       "score": "",
-      "courses": []
+      "courses": [],
+      "startDateDisplay": "01/01/2004",
+      "endDateDisplay": "01/01/2008"
     }
   ],
   "skills": [
     {
-      "name": "Product Management",
+      "name": "Product Leadership & Strategy",
       "level": "Expert",
       "keywords": [
-        "Agile",
-        "Scrum",
-        "Waterfall",
         "Roadmapping",
-        "Backlog Management",
-        "Requirements Gathering",
-        "User Stories",
-        "Product Strategy"
+        "PRDs",
+        "Discovery",
+        "Backlog",
+        "OKRs/KPIs",
+        "Stakeholder Management",
+        "Go-to-Market"
       ]
     },
     {
-      "name": "UX/UI Design & Prototyping",
+      "name": "AI/LLM Engineering",
       "level": "Advanced",
-      "keywords": [
-        "Figma",
-        "Prototyping",
-        "Wireframing",
-        "Interactive Mockups",
-        "User Journey Mapping",
-        "User Personas",
-        "Design Systems",
-        "Rapid Prototyping"
-      ]
-    },
-    {
-      "name": "Programming & Development",
-      "level": "Advanced",
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "PHP",
-        "Python",
-        "API Integration",
-        "Frontend Development",
-        "Backend Development",
-        "Full-Stack Development"
-      ]
-    },
-    {
-      "name": "AI Development & Integration",
-      "level": "Expert",
       "keywords": [
         "OpenAI API",
-        "GPT Models",
-        "Claude API",
-        "Chatbot Development",
-        "AI Service Architecture",
-        "Custom AI Solutions",
-        "AI Image Generation",
-        "AI Video Models",
+        "Claude",
         "Prompt Engineering",
-        "Model Fine-tuning"
+        "Chatbot Development",
+        "RAG",
+        "Fine-tuning",
+        "AI Service Architecture"
+      ]
+    },
+    {
+      "name": "Frontend & Mobile",
+      "level": "Advanced",
+      "keywords": [
+        "Flutter Web",
+        "Flutter",
+        "React",
+        "TailwindCSS",
+        "TypeScript",
+        "SwiftUI",
+        "Next.js"
+      ]
+    },
+    {
+      "name": "Backend & APIs",
+      "level": "Advanced",
+      "keywords": [
+        "REST",
+        "API Integration",
+        "Python",
+        "Telegram Bot API",
+        "PostgreSQL",
+        "Supabase",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Data & Analytics",
+      "level": "Advanced",
+      "keywords": [
+        "Amplitude",
+        "Firebase",
+        "Google Analytics",
+        "GTM",
+        "Experimentation",
+        "Data Visualization"
       ]
     },
     {
@@ -207,57 +383,32 @@
       "level": "Advanced",
       "keywords": [
         "Docker",
-        "Self-Hosting",
-        "Server Management",
-        "VPS Administration",
-        "Cloud Services",
-        "Service Orchestration",
         "CI/CD",
+        "Server Management",
+        "Cloud Services",
         "Git",
-        "Version Control"
+        "Self-Hosting"
       ]
     },
     {
-      "name": "Modern Development Tools",
+      "name": "Design & Prototyping",
       "level": "Advanced",
       "keywords": [
-        "Cursor AI",
-        "Claude Code",
-        "GitHub Copilot",
-        "AI-Assisted Coding",
-        "Vibe Coding",
-        "VS Code",
-        "Modern IDEs",
-        "Headless CMS",
-        "No-Code/Low-Code"
+        "Figma",
+        "Wireframing",
+        "Interactive Prototypes",
+        "Design Systems"
       ]
     },
     {
-      "name": "Analytics & Data",
-      "level": "Advanced",
-      "keywords": [
-        "Amplitude",
-        "Firebase",
-        "Google Analytics",
-        "GTM",
-        "KPI Tracking",
-        "Data Visualization",
-        "A/B Testing",
-        "User Behavior Analysis"
-      ]
-    },
-    {
-      "name": "Creative & Media Production",
+      "name": "Creative & Media",
       "level": "Expert",
       "keywords": [
-        "Adobe Creative Suite",
+        "Adobe CC",
+        "Premiere Pro",
         "Photoshop",
         "Illustrator",
-        "InDesign",
-        "Premiere Pro",
-        "Video Production",
-        "AI Image Generation",
-        "AI Video Generation"
+        "Video Production"
       ]
     }
   ],
@@ -281,23 +432,13 @@
   ],
   "interests": [
     {
-      "name": "Video Production",
-      "keywords": [
-        "Directing",
-        "Editing",
-        "Cinematography",
-        "Storyboarding",
-        "Post-production"
-      ]
-    },
-    {
       "name": "Technology",
       "keywords": [
         "Self Hosting",
         "Docker",
-        "VPN Server",
-        "Smart Home Automation",
-        "Raspberry Pi"
+        "Smart Home",
+        "Raspberry Pi",
+        "VPN Servers"
       ]
     },
     {
@@ -305,8 +446,17 @@
       "keywords": [
         "Meditation",
         "Social Psychology",
-        "Cognitive Psychology",
         "Cognitive Biases"
+      ]
+    },
+    {
+      "name": "Video Production",
+      "keywords": [
+        "Directing",
+        "Editing",
+        "Cinematography",
+        "Storyboarding",
+        "Post-production"
       ]
     }
   ],
@@ -324,39 +474,8 @@
       "reference": "Director, Neo Yachting - I have been working with Egor since 2011 and have been consistently impressed with Egor's attitude and productivity. He successfully transitioned from marketing executive to yacht charter broker and continued as an independent contractor, helping us with web development, photo and video content, event management and social media strategy."
     }
   ],
-  "projects": [
-    {
-      "name": "Lyfar Studio",
-      "description": "Video production company creating content for top brands",
-      "highlights": [
-        "Founded video production company serving brands like Chanel and Swire Hotels",
-        "Directed 4-minute music video for recognized artist",
-        "Led industry masterclasses for 20+ participants",
-        "Built strong online presence: 10,000+ Instagram followers and 30M views on Unsplash",
-        "Managed end-to-end studio setup optimizing budget and quality"
-      ],
-      "keywords": [
-        "Video Production",
-        "Brand Campaigns",
-        "Creative Direction",
-        "Team Leadership"
-      ],
-      "startDate": "2014-01-01",
-      "endDate": "",
-      "url": "https://lyfar.com",
-      "roles": [
-        "Founder",
-        "Video Director",
-        "Videographer",
-        "Photographer"
-      ],
-      "entity": "Lyfar Studio",
-      "type": "business"
-    }
-  ],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2024-01-15T10:00:00"
+    "lastModified": "2025-09-01T05:12:59+00:00"
   }
 }
