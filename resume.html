@@ -8,196 +8,195 @@
 	<title>Egor Lyfar</title>
 
 	<style>
-	/* Clean Professional PDF Resume Theme */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    background: white;
-    color: black;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 12pt;
+	body {
+    background: #EEEEEE;
+    font: 13px "Times New Roman", Times, sans-serif;
     line-height: 1.4;
-    margin: 0;
-    padding: 0;
+    margin: 40px 0;
 }
 
-#resume {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background: white;
-}
-
-/* Typography */
-h1 {
-    font-size: 20pt;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: black;
-}
-
-h2 {
-    font-size: 14pt;
-    font-weight: bold;
-    margin: 20px 0 10px 0;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+em {
+    color: #999;
 }
 
 p {
-    margin: 6px 0;
     line-height: 1.4;
 }
 
 ul {
-    margin: 8px 0;
-    padding-left: 20px;
+    margin-bottom: 0;
 }
 
 li {
-    margin-bottom: 4px;
-    line-height: 1.4;
+    margin-bottom: 2px;
 }
 
-/* Layout */
+a {
+    text-decoration: none;
+}
+
+#resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 80px 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.largeFont {
+    font-size: 20px;
+}
+
+.smallFont {
+    font-size: 13px;
+}
+
 .sectionBlock {
     display: flex;
-    margin-bottom: 16px;
-    page-break-inside: avoid;
+    width: 100%;
 }
 
 .sectionName {
-    width: 22%;
-    font-weight: bold;
-    font-size: 11pt;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    padding-right: 15px;
-    color: #333;
+    width: 18%;
+    vertical-align: top;
+    display: inline-block;
 }
 
 .sectionContent {
-    width: 78%;
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent ul {
+    padding-left: 20px;
+    margin-top: 6px;
+    list-style-type: circle;
 }
 
 .sectionContent .title {
     font-weight: bold;
-    font-size: 13pt;
-    color: black;
 }
 
 .sectionContent .date {
     float: right;
-    font-size: 11pt;
-    color: #666;
-    font-weight: normal;
+}
+
+.sectionContent .separator {
+    height: 14px;
 }
 
 .sectionLine {
-    border-top: 1px solid #ddd;
-    margin: 12px 0;
-}
-
-.jobBlock, .educationBlock, .projectBlock {
-    margin-bottom: 16px;
-    page-break-inside: avoid;
-}
-
-.blockHeader {
-    margin-bottom: 6px;
-    overflow: hidden;
-}
-
-.position, .entity {
-    font-style: italic;
-    color: #555;
-    font-size: 11pt;
-}
-
-.summary {
-    margin: 8px 0;
-    text-align: justify;
-    line-height: 1.5;
-}
-
-.highlights {
-    margin: 8px 0;
-}
-
-.highlights li {
-    margin-bottom: 3px;
-}
-
-.skillBlock {
-    margin-bottom: 8px;
-}
-
-.skillBlock .title {
-    font-weight: bold;
-    display: inline;
-}
-
-.skillBlock .keywords {
-    display: inline;
-    font-style: italic;
-    color: #555;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .divider {
-    margin: 0 6px;
-    color: #999;
-}
-
-/* Links */
-a {
-    color: #000;
-    text-decoration: underline;
-}
-
-/* Contact info */
-.largeFont {
-    font-size: 18pt;
     font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.smallFont {
-    font-size: 11pt;
-    color: #555;
-    margin: 4px 0;
+.summary {
+    margin-top: 6px;
 }
 
-/* Print optimizations */
+.skillBlock {
+    margin-bottom: 4px;
+}
+
+.jobBlock {
+    page-break-inside: avoid;
+}
+
+.description {
+    text-align: justify;
+}
+
+blockquote.reference {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 40em) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .sectionBlock {
+        flex-direction: column;
+    }
+    .sectionContent {
+        width: 100%;
+    }
+    .sectionContent .date {
+        padding-right: 2em;
+    }
+    .sectionName {
+        width: auto;
+    }
+    .largeFont {
+        font-size: 20px;
+    }
+    .smallFont {
+        font-size: 14px;
+    }
+}
+
 @media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
     html, body {
+        background: white !important;
         margin: 0 !important;
         padding: 0 !important;
-        background: white !important;
-        color: black !important;
+        font-size: 12pt;
+        line-height: 1.4;
     }
-    
+    @page {
+        margin: 2cm;
+        size: A4;
+    }
     #resume {
         margin: 0 !important;
-        padding: 0 !important;
+        max-width: none !important;
         width: 100% !important;
+        padding: 0 !important;
+        border: none !important;
         background: white !important;
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
     }
-    
-    .sectionBlock,
-    .jobBlock,
-    .educationBlock,
-    .projectBlock {
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-    
     a {
         color: black !important;
+        text-decoration: underline;
+    }
+    .sectionLine {
+        border-color: #000 !important;
     }
 }
 	</style>
@@ -613,6 +612,146 @@ a {
 					<div><a href='https://putmebehindthebar.egor.lol'>https://putmebehindthebar.egor.lol</a></div>
 					<div class="description">
 						<p>Fun photo generation service that places bar visitors &#x27;behind the bar&#x27;.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							AI Trading Insights Agent
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#ai-trading-insights'>https://lyfar.com/#ai-trading-insights</a></div>
+					<div class="description">
+						<p>LLM agent that synthesizes market/news + account signals into daily trade briefs (Telegram delivery).</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							KYC Risk Scoring Service
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#kyc-risk-scoring'>https://lyfar.com/#kyc-risk-scoring</a></div>
+					<div class="description">
+						<p>Rules + lightweight ML scoring for KYC docs; flags anomalies and routes edge cases to manual review.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							PWA Onboarding Funnel A/B
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#onboarding-ab'>https://lyfar.com/#onboarding-ab</a></div>
+					<div class="description">
+						<p>Multi‑step onboarding with variants and instrumentation; shipped experiments to lift completion rate.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Pricing Experiment Framework
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#pricing-framework'>https://lyfar.com/#pricing-framework</a></div>
+					<div class="description">
+						<p>Feature‑flagged pricing tests with guardrails and telemetry; enabled elastic/prorated pilots.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							RAG Support Knowledge Base
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#rag-support-kb'>https://lyfar.com/#rag-support-kb</a></div>
+					<div class="description">
+						<p>Vectorized policies/macros with retrieval‑augmented answers; reduced handle time and improved CSAT.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							NPS to Roadmap Loop
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#nps-roadmap'>https://lyfar.com/#nps-roadmap</a></div>
+					<div class="description">
+						<p>Auto‑themes NPS verbatims and produces weekly opportunity reports for prioritization.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Churn Prediction &amp; Save Flows
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#churn-save'>https://lyfar.com/#churn-save</a></div>
+					<div class="description">
+						<p>Simple model with triggered save offers and nudges across email/in‑app; ARR impact tracking.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Self‑Serve Admin Console
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#admin-console'>https://lyfar.com/#admin-console</a></div>
+					<div class="description">
+						<p>Roles/permissions, feature flags, and CMS blocks for ops and marketing to ship without dev cycles.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							LTV/CAC Exec Dashboard
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#ltv-cac'>https://lyfar.com/#ltv-cac</a></div>
+					<div class="description">
+						<p>Unified metrics with cohorting and anomaly alerts; single view for growth and finance.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Pay‑in / Pay‑out Sandbox
+						</span>
+						
+						
+					</div>
+					<div><a href='https://lyfar.com/#payments-sandbox'>https://lyfar.com/#payments-sandbox</a></div>
+					<div class="description">
+						<p>Mock PSP flows and webhooks for QA/demo environments; faster integration testing and sales demos.</p>
 					</div>
 					
 				</div>

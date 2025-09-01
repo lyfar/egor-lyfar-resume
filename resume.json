@@ -229,6 +229,56 @@
         "Creative Tech"
       ],
       "type": "application"
+    },
+    {
+      "name": "AI Trading Insights Agent",
+      "url": "https://lyfar.com/#ai-trading-insights",
+      "description": "LLM agent that synthesizes market/news + account signals into daily trade briefs (Telegram delivery)."
+    },
+    {
+      "name": "KYC Risk Scoring Service",
+      "url": "https://lyfar.com/#kyc-risk-scoring",
+      "description": "Rules + lightweight ML scoring for KYC docs; flags anomalies and routes edge cases to manual review."
+    },
+    {
+      "name": "PWA Onboarding Funnel A/B",
+      "url": "https://lyfar.com/#onboarding-ab",
+      "description": "Multi‑step onboarding with variants and instrumentation; shipped experiments to lift completion rate."
+    },
+    {
+      "name": "Pricing Experiment Framework",
+      "url": "https://lyfar.com/#pricing-framework",
+      "description": "Feature‑flagged pricing tests with guardrails and telemetry; enabled elastic/prorated pilots."
+    },
+    {
+      "name": "RAG Support Knowledge Base",
+      "url": "https://lyfar.com/#rag-support-kb",
+      "description": "Vectorized policies/macros with retrieval‑augmented answers; reduced handle time and improved CSAT."
+    },
+    {
+      "name": "NPS to Roadmap Loop",
+      "url": "https://lyfar.com/#nps-roadmap",
+      "description": "Auto‑themes NPS verbatims and produces weekly opportunity reports for prioritization."
+    },
+    {
+      "name": "Churn Prediction & Save Flows",
+      "url": "https://lyfar.com/#churn-save",
+      "description": "Simple model with triggered save offers and nudges across email/in‑app; ARR impact tracking."
+    },
+    {
+      "name": "Self‑Serve Admin Console",
+      "url": "https://lyfar.com/#admin-console",
+      "description": "Roles/permissions, feature flags, and CMS blocks for ops and marketing to ship without dev cycles."
+    },
+    {
+      "name": "LTV/CAC Exec Dashboard",
+      "url": "https://lyfar.com/#ltv-cac",
+      "description": "Unified metrics with cohorting and anomaly alerts; single view for growth and finance."
+    },
+    {
+      "name": "Pay‑in / Pay‑out Sandbox",
+      "url": "https://lyfar.com/#payments-sandbox",
+      "description": "Mock PSP flows and webhooks for QA/demo environments; faster integration testing and sales demos."
     }
   ],
   "education": [
