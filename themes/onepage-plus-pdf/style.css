@@ -62,6 +62,9 @@ li {
     page-break-inside: avoid;
 }
 
+/* Avoid breaking just before a new major section */
+#projectsBlock { page-break-before: avoid; break-before: avoid; }
+
 .sectionName {
     width: 22%;
     font-weight: bold;
@@ -181,7 +184,8 @@ a {
     .sectionBlock,
     .jobBlock,
     .educationBlock,
-    .projectBlock {
+    .projectBlock,
+    #projectsBlock {
         page-break-inside: avoid;
         break-inside: avoid;
     }
