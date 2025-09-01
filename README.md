@@ -5,9 +5,10 @@ This is my professional resume built using [JSON Resume](https://jsonresume.org/
 ## Features
 
 - Built with JSON Resume framework
-- Uses a custom onepage-plus theme with MM/DD/YYYY date format
-- Responsive design
-- Multiple export formats (HTML, PDF)
+- **Dual theme approach**: Styled web version + clean PDF document version
+- Custom MM/DD/YYYY date format support
+- Responsive web design with professional styling
+- Clean, minimal PDF output optimized for printing
 - Easy to maintain and update
 
 ## Getting Started
@@ -40,11 +41,11 @@ The resume will be available at `http://localhost:4000`
 
 #### Export Resume
 ```bash
-# Export as HTML
+# Export as HTML (styled web version)
 resume export resume.html --theme ./themes/onepage-plus-custom
 
-# Export as PDF
-resume export resume.pdf --theme ./themes/onepage-plus-custom
+# Export as PDF (clean document version)
+resume export resume.pdf --theme ./themes/onepage-plus-pdf
 ```
 
 #### Edit Resume
