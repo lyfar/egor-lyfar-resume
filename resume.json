@@ -231,21 +231,6 @@
       "type": "application"
     },
     {
-      "name": "AI Trading Insights Agent",
-      "url": "https://lyfar.com/#ai-trading-insights",
-      "description": "LLM agent that synthesizes market/news + account signals into daily trade briefs (Telegram delivery)."
-    },
-    {
-      "name": "KYC Risk Scoring Service",
-      "url": "https://lyfar.com/#kyc-risk-scoring",
-      "description": "Rules + lightweight ML scoring for KYC docs; flags anomalies and routes edge cases to manual review."
-    },
-    {
-      "name": "PWA Onboarding Funnel A/B",
-      "url": "https://lyfar.com/#onboarding-ab",
-      "description": "Multi‑step onboarding with variants and instrumentation; shipped experiments to lift completion rate."
-    },
-    {
       "name": "Pricing Experiment Framework",
       "url": "https://lyfar.com/#pricing-framework",
       "description": "Feature‑flagged pricing tests with guardrails and telemetry; enabled elastic/prorated pilots."
@@ -279,6 +264,26 @@
       "name": "Pay‑in / Pay‑out Sandbox",
       "url": "https://lyfar.com/#payments-sandbox",
       "description": "Mock PSP flows and webhooks for QA/demo environments; faster integration testing and sales demos."
+    },
+    {
+      "name": "Luxury Villa 3D Experience",
+      "url": "https://villa.egor.lol",
+      "description": "Interactive villa showcase with AI depth maps, WebGL parallax, and 360° view."
+    },
+    {
+      "name": "Sauce Barbershop Website",
+      "url": "https://sauce.egor.lol",
+      "description": "Scroll‑triggered SVG/clip‑path animations with sliced text effects; Next.js + GSAP."
+    },
+    {
+      "name": "Dead Poets AI Polaroid Wall",
+      "url": "https://toilet.egor.lol",
+      "description": "Telegram bot (Replicate) generates AI polaroids; 3D scroll site showcases the installation."
+    },
+    {
+      "name": "Dead Poets Bar Tinder",
+      "url": "https://tinder.egor.lol",
+      "description": "Tinder‑like web app for cocktail matches; React + Supabase with filters and likes."
     }
   ],
   "education": [
